@@ -27,11 +27,11 @@ The data used in this research project was obtained from [Inside Airbnb](http://
 
 ## Method and results
 
-**Method**
+### Method
 
 As discussed above Data from Inside Airbnb will be used to look at three different cities in Europe regarding their Airbnb listings in the month of februari and especially Valentine's Day. The analysis of the Airbnb data will start with the city Paris, and will later expand to doing the same analysis for the other cities in Europe. 
 
-**Variables**
+### Variables
 
 Dependent variables: Price, Booking of listing, Number of beds in booked listings
 
@@ -50,11 +50,11 @@ city | The city where the Airbnb ad is located (Madrid, Paris or Rome)
 ![Schermafbeelding 2022-10-14 om 11 49 06](https://user-images.githubusercontent.com/112401369/195817813-da1a32ac-452d-42ed-ad10-9fd6e870779e.png)
 
 
-**Analysis**
+### Analysis
 
 In order to answer the research question, we used several types of analysis. For the analysis of the effect of Valentine's Day on the price Airbnb listings, a t-test has been performed. In addition, a logistic regression was performed to examine the effect of Valentine's Day on the number of bookings. This type of regression was also used to examine whether accommodations with fewer (one/two) beds are booked during Valentine's Day. We compared the outcomes of different cities (Madrid, Paris, Rome) in all these analyses.
 
-**Results**
+### Results
 
 The null hypothesis of the price analysis stated as follows: Valentine's day has no influence on the prices of Airbnb listings. The result from the T-test for all cities together, as for the separate cities, a P-value of >0.05 has been found. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation has been found between Valentine's Day and prices of Airbnb listings. 
 
