@@ -23,9 +23,9 @@ library(knitr)
 ```
 
 # Introduction
-In order to answer our research question, we used data from InsideAirbnb. We collected listing data from three major European cities where we suspected that Valentine's Day is a big thing here, namely Rome, Paris and Madrid. After extracting the datasets for each city, we cleaned these data. In this stage, redundant columns were removed and variables related to the analysis were added. Lastly, the data sets from the individual cities were then merged into one complete dataset.
+In order to answer our research question, we used data from InsideAirbnb. We collected listing data from three major European cities where we suspected that Valentine's Day is a big thing here, namely Rome, Paris and Madrid. After extracting the datasets for each city, we cleaned these data. In this stage, redundant columns were removed and variables related to the analysis were added. Lastly, the data sets from the individual cities were merged into one complete dataset.
 
-In this report, a description of all variables used in the analysis, including relevant summary statistics, can be found. Furthermore, the report includes several plots visualizing the key variables from the analysis. The main section of the report contains the three analysis that will answer the research question. The results of the three analyses are discussed. Ultimately, a conclusion on the effect of Valentine's Day on Airbnb listings will be drawn based on these analyses.
+This report provides a description of all variables used in the analysis, including relevant summary statistics. Furthermore, the report includes several plots visualizing the key variables from the analysis. The main section of the report contains the three analyses that answer the research question, where the results are discussed. Ultimately, a conclusion on the effect of Valentine's Day on Airbnb listings is drawn based on these analyses.
 
 The following questions will be answered:
 
@@ -62,7 +62,7 @@ knitr::include_graphics('../../gen/analysis/output/boxplot_price_per_city.pdf')
 ```
 
 ## Bookings
-To analyse the impact of Valentine's Day on bookings, we created a dummy variable for booked accommodations. The dummy variable booked consists of two categories; an accomodation that has not been booked (0) and an accomodation that has been booked (1). Looking at the mean `r mean_booked` in the dataset, we conclude that Airbnbs are more booked than not booked in the chosen period of this dataset (31 January - 28 February). This conclusion can be verified by printing out the table and the histogram for the variable 'booked'. 
+To analyse the impact of Valentine's Day on bookings, we created a dummy variable for booked accommodations. The dummy variable booked consists of two categories; an accommodation that has not been booked (0) and an accommodation that has been booked (1). Looking at the mean `r mean_booked` in the dataset, we conclude that Airbnbs are more booked than not booked in the chosen period of this dataset (31 January - 28 February). This conclusion can be verified by printing out the table and the histogram for the variable 'booked'. 
 
 A total of 53657 Airbnbs were booked in Rome, Madrid and Paris on Valentine's Day. If we take all other data from our dataset, an average of 53826 accommodations were booked for the cities. Therefore, we can conclude that there are not more accommodations booked via Airbnb during Valentine's Day, but even slightly less.
 
@@ -185,4 +185,4 @@ stargazer(glm2_m1, glm2_m2, glm2_m3,
 ```
 
 ## Conclusion
-Answering our research question, no significant relation has been found between Valentine's day and the prices of Airbnb listings. This is the case both for the accommodations in Paris, Rome and Madrid together and for the cities separately. Secondly, a significant relation has been found between Valentine's Day and the changes of an Airbnb listing being booked. However, although the changes of a listing being booked in Paris and Rome increase on Valentine's Day, the chance of a booking decreases in Madrid on this day. Despite Paris having the smallest population of the three cities, it is here that the greatest impact can be seen. Lastly, no significant relation has been found between Valentine's Day and the number of beds in the Airbnbs booked. Concluding, 
+Answering our research question, no significant relation has been found between Valentine's day and the prices of Airbnb listings. This is the case both for the accommodations in Paris, Rome and Madrid together and for the cities separately. Secondly, a significant relation has been found between Valentine's Day and the changes of an Airbnb listing being booked. However, although the changes of a listing being booked in Paris and Rome increase on Valentine's Day, the chance of a booking decreases in Madrid on this day. Despite Paris having the smallest population of the three cities, it is here that the greatest impact can be seen. Lastly, no significant relation has been found between Valentine's Day and the number of beds in the Airbnbs booked.
