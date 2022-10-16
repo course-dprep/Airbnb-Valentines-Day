@@ -84,7 +84,6 @@ Answering our research question, no significant relation has been found between 
 ```
 ## Dependencies
 
-Add installed packages etc.
 - Install [R and RStudio](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/).
 - Install [make](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/).
 
@@ -139,6 +138,12 @@ Alternatively, one can run the scripts/files in the following order:
 - bookings.analysis.R
 - beds.analysis.R
 - report.Rmd
+
+## More resources
+
+- Close, A., & Zinkhan, G. (2006). A holiday loved and loathed: a consumer perspective of Valentine's Day. ACR North American Advances.
+
+- Home. (n.d.-a). Retrieved 16 October 2022, from http://insideairbnb.com/
 
 ## About
 
