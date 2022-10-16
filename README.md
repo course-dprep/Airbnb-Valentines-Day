@@ -56,11 +56,11 @@ In order to answer the research question, we used several types of analysis. For
 
 ### Results
 
-- Price: H0: Valentine's day has no influence on the prices of Airbnb listings. The result from the T-test for all cities together, as for the separate cities, a P-value of >0.05 has been found. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation has been found between Valentine's Day and prices of Airbnb listings. 
+- Price: H0: Valentine's day has no influence on the prices of Airbnb listings. A P-value of >0.05 was found in the results of the T-test for both all cities combined and individual cities. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation was found between Valentine's Day and prices of Airbnb listings. 
 
 - Bookings: H0: Valentine's day has no influence on the amount of booked Airbnbs. The result from the logistic regression show a P-value<0.01. Therefore, with a significance of 0.05, the null hypothesis could be rejected. On Valentine's Day, the odds of a listing being booked, increases with 1.03. Looking at the exponents, we found a small difference of this effect between cities. On Valentine's Day, the odds of booked Airnbnbs in Madrid decreases by a value of 0.996. While in Rome, these odds increase by a value of 1.006 and in Paris by a value of 1.006. The exponents show that the likelihood of booking an Airbnb on Valentine's Day is highest in Paris.
 
-- Beds: H0: Valentine's day has no influence on the number of beds in booked Airbnbs. The P-value of the logistic regression and log likelihood are both >0.05. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation has been found between Valentine's Day and the number of beds in booked Airbnbs.
+- Beds: H0: Valentine's day has no influence on the number of beds in booked Airbnbs. The P-value of the logistic regression and log likelihood are both >0.05. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation was found between Valentine's Day and the number of beds in booked Airbnbs.
 
 
 ## Conclusion
