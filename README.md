@@ -70,12 +70,12 @@ In answer to our research question, no significant correlation was found between
 ## Repository overview
 ```
 ├── README.md
+├── data
 ├── gen
 │   ├── analysis
 │   │   └── output
 │   └── data-preparation
 │       └── temp
-│
 └── src
     ├── analysis
     └── data-preparation
