@@ -10,9 +10,6 @@ library(stargazer)
 
 ## INPUT ##
 complete_data <- read.csv("../../gen/data-preparation/temp/complete_data.csv") 
-complete_data_mad <- read.csv("../../gen/data-preparation/temp/complete_data_booked_mad.csv")
-complete_data_par <- read.csv("../../gen/data-preparation/temp/complete_data_booked_par.csv")
-complete_data_rom <- read.csv("../../gen/data-preparation/temp/complete_data_booked_rom.csv")
 
 ## TRANSFORMATION ##
 summary(complete_data$booked)
