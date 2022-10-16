@@ -29,7 +29,7 @@ The data used in this research project was obtained from [Inside Airbnb](http://
 
 ### Method
 
-As discussed above Data from Inside Airbnb will be used to look at three different cities in Europe regarding their Airbnb listings in the month of februari and especially Valentine's Day. The analysis of the Airbnb data will start with the city Paris, and will later expand to doing the same analysis for the other cities in Europe. 
+As discussed above, data from Inside Airbnb will be used to look at three different cities in Europe regarding their Airbnb rentals during the month of February and Valentine's Day in particular. The analysis of the Airbnb data will start with the city of Paris, and will later be extended to the same analysis for the other cities in Europe (Madrid and Rome).
 
 ### Variables
 
