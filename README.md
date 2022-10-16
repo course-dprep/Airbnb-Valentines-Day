@@ -70,17 +70,15 @@ In answer to our research question, no significant correlation was found between
 ## Repository overview
 ```
 ├── README.md
-├── data
 ├── gen
 │   ├── analysis
 │   │   └── output
-│   ├── data-preparation
-│   │   └── temp
-│   └── paper
+│   └── data-preparation
+│       └── temp
+│
 └── src
     ├── analysis
-    ├── data-preparation
-    └── paper
+    └── data-preparation
 ```
 ## Dependencies
 
