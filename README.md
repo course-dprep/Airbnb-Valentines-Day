@@ -7,37 +7,26 @@ Welcome to our research project! This research aims to answer the following rese
 ![This is an image](https://turntable.kagiso.io/images/romantic_bedroom.width-800.jpg)
 
 ## Motivation
-Valentine's day is celebrated yearly on the 14th of February. It is a day when romance takes centre stage and people show their love for each other with accompanying rituals. Specific behaviours and rituals that people often perform are giving gifts, showing affection, or going out for dinner or a romantic getaway [(Close & Zinkhan, 2006)](https://www.acrwebsite.org/volumes/v33/v33_10020.pdf). For overnight stays, Airbnb accommodation is often booked.
+Valentine's Day is celebrated yearly on the 14th of February. It is a day when romance takes centre stage and people show their love for each other with accompanying rituals. Specific behaviours and rituals that people often perform are giving gifts, showing affection, or going out for dinner or a romantic getaway [(Close & Zinkhan, 2006)](https://www.acrwebsite.org/volumes/v33/v33_10020.pdf). For overnight stays, Airbnb accommodation is often booked.
 
 Therefore, this study proposes the following research question:
 
 *What is the effect of Valentine's Day on Airbnb listings?*
 
-During this project, we will zoom in on three major cities in Europe. We find this interesting as countries cebelrate Valentine's Day with different intensities. Furthermore, will be focusing on the following subquestions:
+During this project, we zoom in on three major cities in Europe. We find this interesting as countries celebrate Valentine's Day with different intensity. Furthermore, we focus on the following subquestions:
 1. What is the influence of Valentine's Day on the price of Airbnb listings?
 2. What is the influence of Valentine's Day on the number of booked Airbnb listings? 
 3. Compared to 'normal days', are relatively more Airbnb accommodations with one/two beds booked during Valentine's Day?
 
-These sub-questions will include comparisons between the cities of Paris, Rome and mMadrid. We have chosen these cities as celebrating Valentine's Day is very popular in these places. 
-
-We expect that there will be an increase in demand for Airbnb accomodations during Valentine's Day. When demand increases, hosts are allowed to charge higher prices for their accomodations. Therefore, we expect the average price of Airbnb listings to increase during Valentines's Day. Moreover, we expect that more accommodations for 2 people are likely to be booked, as couples usually celebrate Valentine's Day. Lastly, we expect to see a difference in the number of bookings during Valentin's day to be bigger in large cities. 
-
-## Data
-The data used in this research project was obtained from [Inside Airbnb](http://insideairbnb.com/). For this research, we looked into the data starting from two weeks before Valentine's Day 2022 (January 31st) untill two weeks after Valentine's day 2022 (February 28th). We created a dummy for Valentine's Day, this allowed us to compare the effect of Valentine's Day with other, 'normal' days. For this analysis, we compare three major cities in Europe: Paris, Rome and Madrid. 
+These sub-questions include comparisons between the cities of Paris, Rome and Madrid. We chose these cities because celebrating Valentine's Day is popular in each of their respective countries [(Valentine’s Day Around the World, n.d.)](https://www.autoeurope.com/travel-blog/valentines-day-around-world/).
 
 ## Method and results
 
 ### Method
 
-As discussed above, data from Inside Airbnb will be used to look at three different cities in Europe regarding their Airbnb rentals during the month of February and Valentine's Day in particular. The analysis of the Airbnb data will start with the city of Paris, and will later be extended to the same analysis for the other cities in Europe (Madrid and Rome).
+The data used in this research project was obtained from [Inside Airbnb](http://insideairbnb.com/). For this research, we looked into the data starting from two weeks before Valentine's Day 2022 (January 31st) untill two weeks after Valentine's Day 2022 (February 28th). We created a dummy for Valentine's Day so that we could compare the effect of Valentine's Day with other, "normal" days. For the analysis, we compare three major cities in Europe: Paris, Rome and Madrid.
 
-### Variables
-
-Dependent variables: Price, Booking of listing, Number of beds in booked listings
-
-Independent variable: Valentine's Day
-
-Moderator: City (Paris/Rome/Madrid)
+In order to answer the research question, we used several types of analyses. For the analysis of the effect of Valentine's Day on the price Airbnb listings, a t-test has been performed. In addition, a logistic regression was performed to examine the effect of Valentine's Day on the number of bookings. This type of regression was also used to examine whether accommodations with fewer (one/two) beds are booked during Valentine's Day. We compared the outcomes of different cities (Madrid, Paris, Rome) in all these analyses.
 
 Variable | Description
 -------- | --------
@@ -49,19 +38,13 @@ city | The city where the Airbnb ad is located (Madrid, Paris or Rome)
 
 ![Schermafbeelding 2022-10-14 om 11 49 06](https://user-images.githubusercontent.com/112401369/195817813-da1a32ac-452d-42ed-ad10-9fd6e870779e.png)
 
-
-### Analysis
-
-In order to answer the research question, we used several types of analysis. For the analysis of the effect of Valentine's Day on the price Airbnb listings, a t-test has been performed. In addition, a logistic regression was performed to examine the effect of Valentine's Day on the number of bookings. This type of regression was also used to examine whether accommodations with fewer (one/two) beds are booked during Valentine's Day. We compared the outcomes of different cities (Madrid, Paris, Rome) in all these analyses.
-
 ### Results
 
-- Price: H0: Valentine's day has no influence on the prices of Airbnb listings. A P-value of >0.05 was found in the results of the T-test for both all cities combined and individual cities. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation was found between Valentine's Day and prices of Airbnb listings. 
+- Price: H0: Valentine's Day has no influence on the prices of Airbnb listings. A P-value of >0.05 was found in the results of the T-test for both all cities combined and individual cities. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation was found between Valentine's Day and prices of Airbnb listings. 
 
-- Bookings: H0: Valentine's day has no influence on the amount of booked Airbnbs. The result from the logistic regression show a P-value<0.01. Therefore, with a significance of 0.05, the null hypothesis could be rejected. On Valentine's Day, the odds of a listing being booked, increases with 1.03. Looking at the exponents, we found a small difference of this effect between cities. On Valentine's Day, the odds of booked Airnbnbs in Madrid decreases by a value of 0.996. While in Rome, these odds increase by a value of 1.006 and in Paris by a value of 1.006. The exponents show that the likelihood of booking an Airbnb on Valentine's Day is highest in Paris.
+- Bookings: H0: Valentine's Day has no influence on the amount of booked Airbnbs. The result from the logistic regression show a P-value<0.01. Therefore, with a significance of 0.05, the null hypothesis could be rejected. On Valentine's Day, the odds of a listing being booked, increases with 1.03. Looking at the exponents, we found a small difference of this effect between cities. On Valentine's Day, the odds of booked Airnbnbs in Madrid decreases by a value of 0.996. While in Rome, these odds increase by a value of 1.006 and in Paris by a value of 1.006. The exponents show that the likelihood of booking an Airbnb on Valentine's Day is highest in Paris.
 
-- Beds: H0: Valentine's day has no influence on the number of beds in booked Airbnbs. The P-value of the logistic regression and log likelihood are both >0.05. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation was found between Valentine's Day and the number of beds in booked Airbnbs.
-
+- Beds: H0: Valentine's Day has no influence on the number of beds in booked Airbnbs. The P-value of the logistic regression and log likelihood are both >0.05. Therefore, with a significance of 0.05, the H0 could not be rejected. No significant relation was found between Valentine's Day and the number of beds in booked Airbnbs.
 
 ## Conclusion
 
@@ -80,6 +63,7 @@ In answer to our research question, no significant correlation was found between
     ├── analysis
     └── data-preparation
 ```
+
 ## Dependencies
 
 - Install [R and RStudio](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/).
@@ -142,6 +126,8 @@ Alternatively, one can run the scripts/files in the following order:
 - Close, A., & Zinkhan, G. (2006). A holiday loved and loathed: a consumer perspective of Valentine's Day. ACR North American Advances.
 
 - Home. (n.d.-a). Retrieved 16 October 2022, from http://insideairbnb.com/
+
+- Valentine’s Day around the world. (n.d.). Retrieved 17 October 2022, from https://www.autoeurope.com/travel-blog/valentines-day-around-world/
 
 ## About
 
