@@ -53,7 +53,6 @@ In answer to our research question, no significant correlation was found between
 ## Repository overview
 ```
 ├── README.md
-├── data
 ├── gen
 │   ├── analysis
 │   │   └── output
@@ -112,14 +111,14 @@ Make will run all code and delete all raw and unnecessary data files created dur
 
 Alternatively, one can run the scripts/files in the following order:
 
-- install_packages.R
-- download_data.R
-- data_cleaning.R
-- data_exploration.Rmd
-- price_analysis.R
-- bookings.analysis.R
-- beds.analysis.R
-- report.Rmd
+1. Install packages: ../src/data-preparation/install_packages.R
+2. Download data: ../src/data-preparation/download_data.R
+3. Clean data: ../src/data-preparation/data_cleaning.R
+4. Explore data: ../src/data-preparation/data_exploration.Rmd
+5. Price analysis: ../src/analysis/price_analysis.R
+6. Bookings analysis: ../src/analysis/bookings.analysis.R
+7. Beds analysis: ../src/analysis/beds.analysis.R
+8. Final report: ../src/analysis/report.Rmd
 
 ## More resources
 
